@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+    database:
+        image: postgres:13-alpine
+        environment:
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: admin
+            POSTGRES_DB: mydeardiary_db
+            PGDATA: /data/postgres
+        volumes:
+            - db_data:/data/postgres
+        ports: 
+            - "5432:5432"
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            PGADMIN_DEFAULT_PASSWORD: admin
+            PGADMIN_DEFAULT_EMAIL: admin@mydeardiary.com
+        volumes:
+            - pgadmin:/root/.pgadmin
+        ports:
+            - "5050:80"
+volumes:
+    db_data:
+    pgadmin:
