@@ -5655,11 +5655,6 @@ type@^2.0.0:
   resolved "https://registry.yarnpkg.com/type/-/type-2.1.0.tgz#9bdc22c648cf8cf86dd23d32336a41cfb6475e3f"
   integrity sha512-G9absDWvhAWCV2gmF1zKud3OyC61nZDwWvBL2DApaVFogI07CprggiQAOOjvp2NRjYWFzPyu7vwtDrQFq8jeSA==
 
-uikit@^3.6.16:
-  version "3.6.16"
-  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.6.16.tgz#7884733236ba3e31257cfa0a01b4b26775665d90"
-  integrity sha512-L/5BpfcMTRNcuPtwMcQSffPpq+mapMOpHfmL2CbijBDKq/D24blcN/2QRMhQkTeFpM5p6nBgcKDGbWOhr/nilg==
-
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
